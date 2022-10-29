@@ -44,15 +44,14 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
+  
   "scripts": {
-    "build": "gatsby build",
+    "build": "react-scripts build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b main",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "eslintConfig": {
